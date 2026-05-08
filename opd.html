@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background: #1b4332; color: white; text-align: center; font-family: sans-serif; padding: 50px; }
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px; 
+            max-width: 900px; 
+            margin: 0 auto; 
+        }
+        .box { 
+            border: 2px solid #74c69d; padding: 30px; 
+            background: rgba(255,255,255,0.1); 
+            border-radius: 10px; font-size: 1.2rem;
+        }
+        .back-btn { display: inline-block; margin-top: 40px; color: #d8f3dc; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h1>IPD BILLING DETAILS</h1>
+    <div class="grid">
+        <div class="box">1. Room Charges</div>
+        <div class="box">2. Doctor Charges</div>
+        <div class="box">3. Nursing & Care</div>
+        <div class="box">4. Medicine</div>
+        <div class="box">5. Tests</div>
+        <div class="box">6. Surgery</div>
+    </div>
+    <br>
+    <a href="index.html" class="back-btn">← Back to Main</a>
+</body>
+</html>

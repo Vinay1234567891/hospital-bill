@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Billing</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #2d6a4f, #1b4332); /* Hospital Green Gradient */
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .container { display: flex; justify-content: center; gap: 40px; }
+        .block {
+            width: 280px; padding: 50px;
+            background: rgba(255, 255, 255, 0.15);
+            border: 2px solid #95d5b2;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .block:hover { background: #d8f3dc; color: #1b4332; transform: translateY(-10px); }
+        h1 { font-size: 3rem; margin-bottom: 10px; }
+        a { text-decoration: none; color: inherit; }
+    </style>
+</head>
+<body>
+    <h1>HOSPITAL BILLING</h1>
+    <p style="font-size: 1.2rem; opacity: 0.8;">Select Department to Process Bill</p>
+    <div class="container">
+        <a href="opd.html"><div class="block"><h2>OPD</h2><p>Outpatient Department</p></div></a>
+        <a href="ipd.html"><div class="block"><h2>IPD</h2><p>Inpatient Department</p></div></a>
+    </div>
+</body>
+</html>
